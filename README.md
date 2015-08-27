@@ -3,10 +3,10 @@
 This extension for [RailsAdmin](https://github.com/sferik/rails_admin) (RA) adds change_password functionality for your models.
 Internally it adds:
 * a custom action named change_password
-* a custom section named change_password, where u declare the fields to fill-in when changing password (e.g. password & password_confirmation)
+* a custom section named change_password where you declare the fields to fill in
 
 ## Installation
-Add this line to your Gemfile, **BEFORE RailsAdmin**                                             
+Add this line to your Gemfile, **BEFORE RailsAdmin**
 `gem 'rails_admin_change_password', git: 'https://github.com/cec/rails_admin_change_password.git'`
 
                
@@ -26,7 +26,7 @@ Simply add the action in the actions block in RAs initializer (rails_admin.rb)
     end
   end
 ```
-### 2. Add the change_password section in the RA configurations of the models you want
+### 2. Add the change_password section in the the models you need
 Here is how I use it in one of my projects
 ```
   class User
