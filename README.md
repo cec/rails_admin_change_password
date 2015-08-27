@@ -7,6 +7,7 @@ Internally it adds:
 
 ## Installation
 Add this line to your Gemfile, **BEFORE RailsAdmin**
+
 `gem 'rails_admin_change_password', git: 'https://github.com/cec/rails_admin_change_password.git'`
 
                
